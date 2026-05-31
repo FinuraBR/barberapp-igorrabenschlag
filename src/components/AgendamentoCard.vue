@@ -7,6 +7,8 @@
       - pendente   → badge amarelo (bg-warning)
       - cancelado  → badge vermelho (bg-danger)
     Adicione um botão "Ver detalhes" que navega para /agendamento/:id
+    https://getbootstrap.com/docs/5.3/components/card/#titles-text-and-links
+    https://router.vuejs.org/guide/#App-vue
   -->
 </template>
 

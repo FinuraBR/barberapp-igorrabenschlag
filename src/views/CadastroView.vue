@@ -7,12 +7,15 @@
         - hora (time)
         - barbeiro (text)
       Use v-model em cada campo para fazer o binding com os dados reativos.
-      O botão de envio deve chamar a função "cadastrarAgendamento".
+      O botão de envio deve chamar a função "cadastrarAgendamento"
+      https://getbootstrap.com/docs/5.3/forms/overview/#overview
+      https://vuejs.org/guide/essentials/forms.html#basic-usage
     -->
 </template>
 
 <script setup lang="ts">
 
+// Importar criarAgendamento do agendamentoService
 // TODO [CRITÉRIO 3 e 11]:
 // Crie um objeto reativo (ref) com os campos do formulário de cadastro
 

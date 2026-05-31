@@ -27,5 +27,10 @@ const router = useRouter()
 // TODO [CRITÉRIO 3, 7 e 9]:
 // Use onMounted para buscar o agendamento pelo ID da rota.
 // O ID está disponível em: route.params.id
-// Lembre-se de converter o ID para number antes de usar.
+// Lembre-se de converter o ID para number (as number) antes de usar.
+async function buscarAgendamento() {
+  
+}
+
+onMounted(buscarAgendamento)
 </script>

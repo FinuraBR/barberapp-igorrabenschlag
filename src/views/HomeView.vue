@@ -4,12 +4,15 @@
 
     <!-- TODO
         Criar um router link para ir para tela de cadastro
+        https://router.vuejs.org/guide/#App-vue
     -->
 
     <!-- TODO [CRITÉRIO 4]:
       Use v-for para percorrer a lista de agendamentos e renderizar
       um componente AgendamentoCard para cada item.
       Não esqueça de passar o agendamento como prop e usar :key.
+      https://vuejs.org/guide/essentials/list.html#v-for
+      https://vuejs.org/guide/essentials/list.html#maintaining-state-with-key
     -->
 
   </div>

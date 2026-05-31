@@ -12,6 +12,7 @@ import { createRouter, createWebHistory } from 'vue-router'
   // TODO
   // Defina a rota para a tela de cadastro (CadastroView)
   // Caminho: '/cadastro'
+// https://router.vuejs.org/guide/#Creating-the-router-instance
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
